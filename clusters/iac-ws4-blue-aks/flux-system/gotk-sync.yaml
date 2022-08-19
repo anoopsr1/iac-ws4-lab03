@@ -6,7 +6,7 @@ metadata:
   name: flux-system
   namespace: flux-system
 spec:
-  interval: 2m0s
+  interval: 1m0s
   ref:
     branch: main
   secretRef:
@@ -19,7 +19,7 @@ metadata:
   name: flux-system
   namespace: flux-system
 spec:
-  interval: 10m0s
+  interval: 5m0s
   path: ./clusters/iac-ws4-blue-aks
   prune: true
   sourceRef:
